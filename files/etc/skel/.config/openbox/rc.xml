@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openbox_config xmlns="http://openbox.org/3.4/rc"
+                xmlns:xi="http://www.w3.org/2001/XInclude">
+
+<theme>
+  <name>Clearlooks</name>
+  <titleLayout></titleLayout>
+  <!--
+      available characters are NDSLIMC, each can occur at most once.
+      N: window icon
+      L: window label (AKA title).
+      I: iconify
+      M: maximize
+      C: close
+      S: shade (roll up/down)
+      D: omnipresent (on all desktops).
+  -->
+  <keepBorder>no</keepBorder>
+  <animateIconify>yes</animateIconify>
+</theme>
+
+<desktops>
+  <number>1</number>
+  <firstdesk>1</firstdesk>
+  <names>
+  </names>
+  <popupTime>0</popupTime>
+</desktops>
+
+<applications>
+  <application class="*">
+    <decor>no</decor>
+    <maximized>yes</maximized>
+  </application>
+</applications>
+
+</openbox_config>

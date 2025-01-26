@@ -1,0 +1,10 @@
+{
+  "URLAllowlist": [
+    "http://localhost:31460",
+    "https://*",
+    "wss://*",
+    "chrome://new-tab-page",
+    "chrome://tab-search.top-chrome",
+    "http://www.tripadvisor.com"
+  ]
+}

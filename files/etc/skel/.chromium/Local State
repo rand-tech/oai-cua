@@ -1,0 +1,8 @@
+{
+   "browser":{
+      "hovercard":{
+        "image_previews_enabled":false,
+        "memory_usage_enabled":false
+      }
+   }
+}

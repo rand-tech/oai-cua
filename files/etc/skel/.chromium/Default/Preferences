@@ -1,0 +1,15 @@
+{
+   "browser":{
+      "custom_chrome_frame":false
+   },
+   "profile":{
+      "name":"OpenAI Operator"
+   },
+   "extensions":{
+      "commands":{
+         "linux:Ctrl+Shift+W":{"command_name":"disable0","extension":"kcdongibgcplmaagnmgpjhpjgmmaaaaa","global":true},
+         "linux:Ctrl+S":{"command_name":"disable1","extension":"kcdongibgcplmaagnmgpjhpjgmmaaaaa","global":true},
+         "linux:Ctrl+N":{"command_name":"disable2","extension":"kcdongibgcplmaagnmgpjhpjgmmaaaaa","global":true}
+      }
+   }
+}

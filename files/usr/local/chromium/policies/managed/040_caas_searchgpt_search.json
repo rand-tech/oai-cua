@@ -1,0 +1,8 @@
+{
+  "DefaultSearchProviderEnabled": true,
+  "DefaultSearchProviderIconURL": "https://chatgpt.com/favicon.ico",
+  "DefaultSearchProviderKeyword": "chatgpt.com",
+  "DefaultSearchProviderName": "ChatGPT",
+  "DefaultSearchProviderSearchURL": "https://chatgpt.com/?q={searchTerms}&hints=search&ref=ext",
+  "DefaultSearchProviderSuggestURL": ""
+}

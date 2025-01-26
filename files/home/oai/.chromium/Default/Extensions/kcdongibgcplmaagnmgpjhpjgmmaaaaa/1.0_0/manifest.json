@@ -1,0 +1,52 @@
+{
+   "background": {
+      "service_worker": "background.js"
+   },
+   "commands": {
+      "disable0": {
+         "description": "Disable Key0"
+      },
+      "disable1": {
+         "description": "Disable Key1"
+      },
+      "disable2": {
+         "description": "Disable Key2"
+      },
+      "disable3": {
+         "description": "Disable Key3"
+      },
+      "disable4": {
+         "description": "Disable Key4"
+      },
+      "disable5": {
+         "description": "Disable Key5"
+      },
+      "disable6": {
+         "description": "Disable Key6"
+      },
+      "disable7": {
+         "description": "Disable Key7"
+      },
+      "disable8": {
+         "description": "Disable Key8"
+      }
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "content.js" ],
+      "matches": [ "\u003Call_urls>" ]
+   } ],
+   "description": "Enhance Chromium's functionality for it to work optimally with OpenAI Operator",
+   "host_permissions": [ "\u003Call_urls>" ],
+   "icons": {
+      "128": "icon.png",
+      "16": "icon.png",
+      "32": "icon.png",
+      "48": "icon.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvGjqZgaRPH1N5dp/sd97TzuoUcaPSl6TxHuOi5JXXS3bKGXH5K+isMWgnbNgkzRWHDctalt/Z6/IZ7X/59qRyn5adbOWTOloGFKgYILnpGsaRq8b2lO4+Gs4a/b3KPo0waALGo1hXkIZcCbjQmzznvX516UlgDRbqEVtzbTrRU4Yh0ja1f5FU8ioZc03sAkzQbdqGs8eKh1xFi4ZN/p5F/w6wUIpW8AOuzFKFphIdLE2pNoDJN+Ka4NJBP5V37Jdwi0Olhk82376nk+V7+Fc3DdXmNFtF+IG/T3RKx6/f1X19J1A/pzGO1goQEtIAgYb77kcMtswnaIZHK2SsOZXAQIDAQAB",
+   "manifest_version": 3,
+   "name": "OpenAI Operator",
+   "permissions": [ "activeTab", "clipboardRead", "commands", "declarativeNetRequest", "history", "storage", "tabs" ],
+   "version": "1.0"
+}

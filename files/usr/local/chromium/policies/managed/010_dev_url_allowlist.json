@@ -1,0 +1,11 @@
+{
+  "URLAllowlist": [
+    "http://*",
+    "https://*",
+    "ws://*",
+    "wss://*",
+    "chrome://*",
+    "devtools://*",
+    "file://*"
+  ]
+}

@@ -1,0 +1,21 @@
+/var/log/*.log {
+    # Rotate logs daily
+    daily
+    # Ignore error if log file is missing
+    missingok
+    # Keep 1 days' worth of logs
+    rotate 1
+    # Compress old logs to save space
+    compress
+    # Delay compression of the most recent log file until the next rotation
+    delaycompress
+    # Do not rotate empty log files
+    notifempty
+    # After rotation, create a new log file with specified permissions
+    create 0640 oai oai
+    # Run postrotate script only once for all logs
+    sharedscripts
+    postrotate
+        kill -HUP `cat /var/run/supervisord.pid` > /dev/null 2>&1 || true
+    endscript
+}

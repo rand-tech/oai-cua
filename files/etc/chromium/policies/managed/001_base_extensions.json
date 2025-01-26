@@ -1,0 +1,5 @@
+{
+  "ExtensionInstallBlocklist": ["*"],
+  "ExtensionInstallForcelist": ["kcdongibgcplmaagnmgpjhpjgmmaaaaa;http://localhost:31460/extension_info.xml"],
+  "ExtensionInstallSources": []
+}

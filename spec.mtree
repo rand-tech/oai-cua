@@ -1,0 +1,1059 @@
+
+# .
+/set type=file
+.               type=dir
+
+# ./etc
+etc             type=dir
+    ca-certificates.conf \
+                sha1digest=1005e1c6b6ac1a6909609eeef155f10b812a84bf
+    hostname    sha1digest=5058a0e7686ac178b0cae83255f758837215b1a5
+    hosts       sha1digest=7c451023460f2de9a81ca930e94304921e91274e
+    inittab     sha1digest=ce9586d2acf1d9462765259a21ccc4f96a402151
+    logrotate.conf \
+                sha1digest=5db839eca972afcba5c9a808ddec90bfd66e83ad
+    os-release  sha1digest=7eeb1488378dc0ef2df6aad88df71f9db45d837f
+    resolv.conf sha1digest=214f96500f36eeebd3603dfc01d8cff3cea7c1e7
+    supervisord.conf \
+                sha1digest=6abf27b5f6caf5d7c064487b947b5c71b80bc02a
+
+# ./etc/chromium
+chromium        type=dir
+    chromium.conf \
+                sha1digest=37cbeb8dd3bcfb7ff4c2a5fc7a4769db8c15c953
+
+# ./etc/chromium/policies
+policies        type=dir
+
+# ./etc/chromium/policies/managed
+managed         type=dir
+    001_base_extensions.json \
+                sha1digest=5de119e00f288ea2f1bde94c6314d57961bde446
+    001_base_miscellaneous.json \
+                sha1digest=94773452cd26fd3ecfac175453f2ad59523e1e2f
+    001_base_url_blocklist.json \
+                sha1digest=3679cdcdfe4b4c261e2ae6aff0d5ea3b2ff68185
+    020_operator_miscellaneous.json \
+                sha1digest=2e0811c3366571ead5ec6fb9c7eb285b12562d1e
+    020_operator_search.json \
+                sha1digest=cc344750bc1992e5c251d04b6133ff0e87881021
+    020_operator_url_allowlist.json \
+                sha1digest=bf740cda606bc85ca118ea53bd6f2eb44f5c8133
+# ./etc/chromium/policies/managed
+..
+
+# ./etc/chromium/policies
+..
+
+# ./etc/chromium
+..
+
+
+# ./etc/logrotate.d
+logrotate.d     type=dir
+    acpid       sha1digest=4f29720883559a74be03f4de69de2f66113b064b
+    supervisord sha1digest=5f3ba0d05d1fe0e55a69de2e1da9f06f72e5a7f9
+# ./etc/logrotate.d
+..
+
+
+# ./etc/network
+network         type=dir
+
+# ./etc/network/ip-down.d
+ip-down.d       type=dir
+# ./etc/network/ip-down.d
+..
+
+
+# ./etc/network/ip-post-down.d
+ip-post-down.d  type=dir
+# ./etc/network/ip-post-down.d
+..
+
+
+# ./etc/network/ip-post-up.d
+ip-post-up.d    type=dir
+# ./etc/network/ip-post-up.d
+..
+
+
+# ./etc/network/ip-pre-down.d
+ip-pre-down.d   type=dir
+# ./etc/network/ip-pre-down.d
+..
+
+
+# ./etc/network/ip-pre-up.d
+ip-pre-up.d     type=dir
+# ./etc/network/ip-pre-up.d
+..
+
+
+# ./etc/network/ip-up.d
+ip-up.d         type=dir
+    dad         sha1digest=ddd99bc197c36e8a9aab9463aaeebda44a7a8029
+# ./etc/network/ip-up.d
+..
+
+# ./etc/network
+..
+
+
+# ./etc/pulse
+pulse           type=dir
+    client.conf sha1digest=6a92c51466bc4e2271fe4c08f7af8d05583e311a
+# ./etc/pulse
+..
+
+
+# ./etc/skel
+skel            type=dir
+
+# ./etc/skel/.chromium
+.chromium       type=dir
+    Local\040State \
+                sha1digest=d0de43b3a715cf24b31c04a1059632ff188ec081
+
+# ./etc/skel/.chromium/Default
+Default         type=dir
+    Preferences sha1digest=005f3ff50e577257b3c418b307ca3b6efecff22b
+# ./etc/skel/.chromium/Default
+..
+
+# ./etc/skel/.chromium
+..
+
+
+# ./etc/skel/.config
+.config         type=dir
+
+# ./etc/skel/.config/openbox
+openbox         type=dir
+    rc.xml      sha1digest=9ecaee67b6eb11f9cf1a12cb2edc0c4af1def636
+# ./etc/skel/.config/openbox
+..
+
+# ./etc/skel/.config
+..
+
+# ./etc/skel
+..
+
+# ./etc
+..
+
+
+# ./home
+home            type=dir
+
+# ./home/oai
+oai             type=dir
+    .nssdbp     sha1digest=6d3726e0033e0fc44e7666137fbc0fbcc36afd1b
+
+# ./home/oai/.cache
+.cache          type=dir
+
+# ./home/oai/.cache/fontconfig
+fontconfig      type=dir
+    8d4af663993b81a124ee82e610bb31f9-le64.cache-9 \
+                sha1digest=de7474d8e4cd4155f1442d1f86d6891f10e75140
+    CACHEDIR.TAG \
+                sha1digest=b9945c60549c2d3bd5cce64fcfa2dec7d28da311
+# ./home/oai/.cache/fontconfig
+..
+
+# ./home/oai/.cache
+..
+
+
+# ./home/oai/.chromium
+.chromium       type=dir
+
+# ./home/oai/.chromium/Default
+Default         type=dir
+
+# ./home/oai/.chromium/Default/Extensions
+Extensions      type=dir
+
+# ./home/oai/.chromium/Default/Extensions/kcdongibgcplmaagnmgpjhpjgmmaaaaa
+kcdongibgcplmaagnmgpjhpjgmmaaaaa \
+                type=dir
+
+# ./home/oai/.chromium/Default/Extensions/kcdongibgcplmaagnmgpjhpjgmmaaaaa/1.0_0
+1.0_0           type=dir
+    background.js \
+                sha1digest=faea0c5941953908a84c2962349e48e7ada99797
+    content.js  sha1digest=15eec53e24102540e838a4eef97d3f12a20d3397
+    icon.png    sha1digest=5ae0a64e508a10fbf0d1a621a93e5ef383a76d9c
+    manifest.json \
+                sha1digest=ed1c6daae1b4e1e495f7ab924f95c86773d93a2f
+# ./home/oai/.chromium/Default/Extensions/kcdongibgcplmaagnmgpjhpjgmmaaaaa/1.0_0
+..
+
+# ./home/oai/.chromium/Default/Extensions/kcdongibgcplmaagnmgpjhpjgmmaaaaa
+..
+
+# ./home/oai/.chromium/Default/Extensions
+..
+
+# ./home/oai/.chromium/Default
+..
+
+# ./home/oai/.chromium
+..
+
+
+# ./home/oai/.config
+.config         type=dir
+
+# ./home/oai/.config/chromium
+chromium        type=dir
+
+# ./home/oai/.config/chromium/Crash Reports
+Crash\040Reports \
+                type=dir
+    settings.dat \
+                sha1digest=810d81458d2a8f529cc8560ac2d2d47faae6953b
+
+# ./home/oai/.config/chromium/Crash Reports/pending
+pending         type=dir
+    97444d9e-aefa-4541-b93a-78949ae50cc6.dmp \
+                sha1digest=1acabc02601b59a74d91530fd0cacfdf1b22cac5
+    97444d9e-aefa-4541-b93a-78949ae50cc6.meta \
+                sha1digest=099845958e6314fbe40eee70dfd5e6aab5a5b951
+    cda510cf-4645-4b57-81d2-83b31892817e.dmp \
+                sha1digest=5e56c7c928247d45d648586b5f29f75cf76f52d7
+    cda510cf-4645-4b57-81d2-83b31892817e.meta \
+                sha1digest=cb9d7a3ef4de37be18d091915352cc4f1a651d45
+# ./home/oai/.config/chromium/Crash Reports/pending
+..
+
+# ./home/oai/.config/chromium/Crash Reports
+..
+
+# ./home/oai/.config/chromium
+..
+
+
+# ./home/oai/.config/glib-2.0
+glib-2.0        type=dir
+
+# ./home/oai/.config/glib-2.0/settings
+settings        type=dir
+    keyfile     sha1digest=964ea64e23411445841d8d7f753fc9e7500b26d1
+# ./home/oai/.config/glib-2.0/settings
+..
+
+# ./home/oai/.config/glib-2.0
+..
+
+
+# ./home/oai/.config/openbox
+openbox         type=dir
+    rc.xml      sha1digest=9ecaee67b6eb11f9cf1a12cb2edc0c4af1def636
+# ./home/oai/.config/openbox
+..
+
+# ./home/oai/.config
+..
+
+
+# ./home/oai/.pki
+.pki            type=dir
+
+# ./home/oai/.pki/nssdb
+nssdb           type=dir
+    cert9.db    sha1digest=fc054caf256122735c141c4a1e219a435550add1
+    key4.db     sha1digest=60824adfd402bc0cb17b7bdd6bb59c6edd9e18de
+    pkcs11.txt  sha1digest=5d7f2740c4900e3c70ba3677e5b062c572915ed9
+# ./home/oai/.pki/nssdb
+..
+
+# ./home/oai/.pki
+..
+
+# ./home/oai
+..
+
+# ./home
+..
+
+
+# ./opt
+opt             type=dir
+
+# ./opt/novnc
+novnc           type=dir
+    .gitignore  sha1digest=4a49302c376d0be4354835ca8c53de88a6e4afdc
+    .gitmodules sha1digest=da39a3ee5e6b4b0d3255bfef95601890afd80709
+    AUTHORS     sha1digest=c119cda21d8ae7771a43073dd1ec630c06d8fd52
+    LICENSE.txt sha1digest=880cec7abf37b78c38faf65988f1b673313c695a
+    README.md   sha1digest=850a6c6dc5323413640e443b581c7e49f4a5f5db
+    eslint.config.mjs \
+                sha1digest=38853359f2242ffc8f42eb2864435e3c23a24058
+    index.html  sha1digest=802e972148e428c7e2b1172342683390942003f8
+    karma.conf.js \
+                sha1digest=d836f98b9b9a058f9aafa6eb646bb891735e90d1
+    package.json \
+                sha1digest=acfa789ee9fc646f55a8d122396fd92a4a8ebf1c
+    vnc.html    sha1digest=802e972148e428c7e2b1172342683390942003f8
+    vnc_lite.html \
+                sha1digest=cd4be1e79cc07abc87a14978ef40d38335758427
+
+# ./opt/novnc/.git
+.git            type=dir
+    FETCH_HEAD  sha1digest=7af15d4fb34fa70dc8d6c608e6cea790b64342f6
+    HEAD        sha1digest=090163ac80c92e270f7b59af541180608a066370
+    config      sha1digest=e4299a75000a3d7c30bd427b07e20b4ca95edd66
+    description sha1digest=9635f1b7e12c045212819dd934d809ef07efa2f4
+    index       sha1digest=b1ba069c38860ce57c59598646316a18d1a3c763
+    packed-refs sha1digest=c94b8c3efbbac16d8843503cb8f70e86f01e0744
+
+# ./opt/novnc/.git/hooks
+hooks           type=dir
+    applypatch-msg.sample \
+                sha1digest=4de88eb95a5e93fd27e78b5fb3b5231a8d8917dd
+    commit-msg.sample \
+                sha1digest=ee1ed5aad98a435f2020b6de35c173b75d9affac
+    post-update.sample \
+                sha1digest=b614c2f63da7dca9f1db2e7ade61ef30448fc96c
+    pre-applypatch.sample \
+                sha1digest=f208287c1a92525de9f5462e905a9d31de1e2d75
+    pre-commit.sample \
+                sha1digest=8093d68e142db52dcab2215e770ba0bbe4cfbf24
+    pre-merge-commit.sample \
+                sha1digest=04c64e58bc25c149482ed45dbd79e40effb89eb7
+    pre-push.sample \
+                sha1digest=a599b773b930ca83dbc3a5c7c13059ac4a6eaedc
+    pre-rebase.sample \
+                sha1digest=288efdc0027db4cfd8b7c47c4aeddba09b6ded12
+    pre-receive.sample \
+                sha1digest=705a17d259e7896f0082fe2e9f2c0c3b127be5ac
+    prepare-commit-msg.sample \
+                sha1digest=2584806ba147152ae005cb675aa4f01d5d068456
+    push-to-checkout.sample \
+                sha1digest=508240328c8b55f8157c93c43bf5e291e5d2fbcb
+    sendemail-validate.sample \
+                sha1digest=74cf1d5415a5c03c110240f749491297d65c4c98
+    update.sample \
+                sha1digest=730e6bd5225478bab6147b7a62a6e2ae21d40507
+# ./opt/novnc/.git/hooks
+..
+
+
+# ./opt/novnc/.git/info
+info            type=dir
+    exclude     sha1digest=c879df015d97615050afa7b9641e3352a1e701ac
+# ./opt/novnc/.git/info
+..
+
+
+# ./opt/novnc/.git/logs
+logs            type=dir
+    HEAD        sha1digest=1cc1bca48f1f88e78ea31cadda85e35970e87793
+
+# ./opt/novnc/.git/logs/refs
+refs            type=dir
+
+# ./opt/novnc/.git/logs/refs/heads
+heads           type=dir
+    master      sha1digest=8bb18f29817b451e1258a9f2cdef2b1c4b299a1b
+# ./opt/novnc/.git/logs/refs/heads
+..
+
+
+# ./opt/novnc/.git/logs/refs/remotes
+remotes         type=dir
+
+# ./opt/novnc/.git/logs/refs/remotes/origin
+origin          type=dir
+    HEAD        sha1digest=8bb18f29817b451e1258a9f2cdef2b1c4b299a1b
+    master      sha1digest=2f50a78b5619c6452c09d9f2f8203d6dfb660334
+    smallpinch  sha1digest=35671c2b8c194e433306341a1d277745a1d5111e
+    ui_refresh  sha1digest=cd8e702bdc2dd2d1c1961daab873f9334298fd8a
+# ./opt/novnc/.git/logs/refs/remotes/origin
+..
+
+# ./opt/novnc/.git/logs/refs/remotes
+..
+
+# ./opt/novnc/.git/logs/refs
+..
+
+# ./opt/novnc/.git/logs
+..
+
+
+# ./opt/novnc/.git/objects
+objects         type=dir
+
+# ./opt/novnc/.git/objects/pack
+pack            type=dir
+    pack-350017aba468ade06bf0a2999cb10e1242d8e05f.idx \
+                sha1digest=7830dce08b71dae30d03547bba5c67aad2932549
+    pack-350017aba468ade06bf0a2999cb10e1242d8e05f.pack \
+                sha1digest=b55519f8b3d72fd53d95aec92dc35ca208c849ec
+    pack-e91f17ef974e1a4959212577753d3f481987bd52.idx \
+                sha1digest=9ae4c25ec9524e576256bf50f89db3ca6d11e16c
+    pack-e91f17ef974e1a4959212577753d3f481987bd52.pack \
+                sha1digest=72903f7fc2cc4a9297b7ef0a495126e7500b23b9
+    pack-e91f17ef974e1a4959212577753d3f481987bd52.rev \
+                sha1digest=af4b8f281a6ee915de2e718952f02b64059ef3b4
+# ./opt/novnc/.git/objects/pack
+..
+
+# ./opt/novnc/.git/objects
+..
+
+
+# ./opt/novnc/.git/refs
+refs            type=dir
+
+# ./opt/novnc/.git/refs/heads
+heads           type=dir
+    master      sha1digest=292dfa633dc345c2a9adbb5745fea9ba8c67bbe1
+# ./opt/novnc/.git/refs/heads
+..
+
+
+# ./opt/novnc/.git/refs/remotes
+remotes         type=dir
+
+# ./opt/novnc/.git/refs/remotes/origin
+origin          type=dir
+    HEAD        sha1digest=d9427cda09aba1cdde5c69c2b13c905bddb0bc51
+    master      sha1digest=e9fa4a7a89281165ef35112ed20f4cdabededefa
+    smallpinch  sha1digest=a4aa070ab3dc5c3971cbd8d18acca12fdfdcebed
+    ui_refresh  sha1digest=47fccaf5fd6e2b957266e053ed661752fcc3539d
+# ./opt/novnc/.git/refs/remotes/origin
+..
+
+# ./opt/novnc/.git/refs/remotes
+..
+
+# ./opt/novnc/.git/refs
+..
+
+# ./opt/novnc/.git
+..
+
+
+# ./opt/novnc/.github
+.github         type=dir
+
+# ./opt/novnc/.github/ISSUE_TEMPLATE
+ISSUE_TEMPLATE  type=dir
+    bug_report.md \
+                sha1digest=b6217ed48c60ac4c0135349e311254543efd966f
+    config.yml  sha1digest=abe7ce1c76f0ffbf4d4551ffbdf30c60e54a5597
+    feature_request.md \
+                sha1digest=ca7ec6dc303459058d3117f33878beec538d3023
+# ./opt/novnc/.github/ISSUE_TEMPLATE
+..
+
+
+# ./opt/novnc/.github/workflows
+workflows       type=dir
+    deploy.yml  sha1digest=8fbc7934c98bc447d5065b4e40732c162a63b754
+    lint.yml    sha1digest=c26c6a326ccb5ffd03f27a1f9621bfc8edeb20c9
+    test.yml    sha1digest=dd40339264022309e4fad264290f74d2d4c82674
+    translate.yml \
+                sha1digest=b8776c3e2996c7c941f097e79736014fde1d9ccc
+# ./opt/novnc/.github/workflows
+..
+
+# ./opt/novnc/.github
+..
+
+
+# ./opt/novnc/app
+app             type=dir
+    error-handler.js \
+                sha1digest=52ba065a5aaf99b9ca1cff06d759eecac1df205b
+    localization.js \
+                sha1digest=f3d9fd8b0c4fccf47eee317f33779858baf952dc
+    ui.js       sha1digest=ab5a8880c898d3dd3feb04e70e58e87100bbd203
+    webutil.js  sha1digest=7835d63ed3080c4a3d0909f4017a5692eb56a17f
+
+# ./opt/novnc/app/images
+images          type=dir
+    alt.svg     sha1digest=5e111ce3ac90acea6df46fd981a0c33f8179548e
+    clipboard.svg \
+                sha1digest=8e6baecab4d62f542f8e07ac1a98d1f49e6e792e
+    connect.svg sha1digest=101503a46f6b21059ab9fa54fe9dcc2ec117c19e
+    ctrl.svg    sha1digest=7d6deaa4c401c4cfd9b008efae801afee548a1c6
+    ctrlaltdel.svg \
+                sha1digest=5132eade4cf0c0af39b657a10d8fd50c13dfdc65
+    disconnect.svg \
+                sha1digest=0de5892ee6d4027f4bf857fbc13009cec413bc4b
+    drag.svg    sha1digest=f8ade4e3171ddb17a9438625b566ab0a268e3cfd
+    error.svg   sha1digest=0e5b5341d5a2f4f6daee2f1c3157dda700344653
+    esc.svg     sha1digest=2a78e8206e3fe163c944740d89adaa780a3ff2d6
+    expander.svg \
+                sha1digest=0b2383606bf7c9089c1d7dd08c92a3177dcaa59d
+    fullscreen.svg \
+                sha1digest=2d744ea23eb4029b0d7d39a15132866118d582d6
+    handle.svg  sha1digest=264c827d90d70c9a6b3610b62d15b39706ce0cde
+    handle_bg.svg \
+                sha1digest=a6d4798f0ce0b8ac83cf96c914e7c3d27cd46144
+    info.svg    sha1digest=697487d705a02417b90b94e647f6216fc9c03408
+    keyboard.svg \
+                sha1digest=5fb98da11efcb9c79b56ef80b84d43ad0075283a
+    power.svg   sha1digest=3b7f45f6051dac587792acf8ba2eef4d676ae7cd
+    settings.svg \
+                sha1digest=5827065a76571bd33543bd8df997c2a238c27ddb
+    tab.svg     sha1digest=e7ff28202e5fdd5238634c49ba488768c024e5d2
+    toggleextrakeys.svg \
+                sha1digest=8e336ed9e210d4c7c2716118cf99af4d589451e7
+    warning.svg sha1digest=3b97c9e5d07b12844093d5e70103eac654ff6771
+    windows.svg sha1digest=da4b409c2a4dc8ee9aa5683d6961d4419ea3dda8
+
+# ./opt/novnc/app/images/icons
+icons           type=dir
+    Makefile    sha1digest=c762e658adba7b82d1e6cf1a3cffe642ab86320e
+    novnc-icon-sm.svg \
+                sha1digest=21cdd1e64b171b1d55d62c6b4584c51b147bd124
+    novnc-icon.svg \
+                sha1digest=9df07988854b1d0b08fb7b3fc04111580ef71200
+    novnc-ios-120.png \
+                sha1digest=85f02692115ed267e0a4bc6616ba911334bd4d3d
+    novnc-ios-152.png \
+                sha1digest=4f7469f755edfacabd590e0b38ec04cdda42ef0c
+    novnc-ios-167.png \
+                sha1digest=2bb39a1304e26fdb638bcb24afdaad812181b273
+    novnc-ios-180.png \
+                sha1digest=4bf44b128423034b11ca10588824118b8a958541
+    novnc-ios-40.png \
+                sha1digest=51a31c2bd0b88eed78ed158d98057eb7c6d17426
+    novnc-ios-58.png \
+                sha1digest=5cfe23e1bb5758b4810f9ef6a2fe60edbc96fd9a
+    novnc-ios-60.png \
+                sha1digest=f06f4e929c40906f1016937d37197e28b54f1d50
+    novnc-ios-80.png \
+                sha1digest=6d5e6b7dedef176ab8a49d3abf304a167c9af529
+    novnc-ios-87.png \
+                sha1digest=e519a79435d6027b4d3f18b19f1f89652d414f04
+    novnc-ios-icon.svg \
+                sha1digest=ef0f5802dfb26138717331a27f97be4ebc563466
+    novnc.ico   sha1digest=6bfd774657e149d3ee0d84f34df79d9e69077f2e
+# ./opt/novnc/app/images/icons
+..
+
+# ./opt/novnc/app/images
+..
+
+
+# ./opt/novnc/app/locale
+locale          type=dir
+    README      sha1digest=bf1a459808321fa50ebf5797571cef8d8bc067b2
+    cs.json     sha1digest=04f62f6253d5be3118f51725b77f580cb2428733
+    de.json     sha1digest=f47d17fbc091fcb05f1bbcc217f8042cf9e7c2a1
+    el.json     sha1digest=3ee6a56121315ada57c7ae512f0b8f6e79b922db
+    es.json     sha1digest=29a632a592387970c21ae1db731f9c190b799b7b
+    fr.json     sha1digest=ef3cf0b0f28b96742619005fc9956e514e25d5f5
+    it.json     sha1digest=f8c33fc27e61fa9bb06b59e2e43bc2448e03c301
+    ja.json     sha1digest=7420f912a3616da4fb974c69347ab689b3b8254d
+    ko.json     sha1digest=469f4d408d7d45d8ecbd3d884b943e7b01458f36
+    nl.json     sha1digest=5bd68de758779912916415323c2aa077a369ecad
+    pl.json     sha1digest=b89c23286c0bf7218b2f724d27b2e7750d0ede80
+    pt_BR.json  sha1digest=8006cac1669b35c6eba07146e1703a17a09a2a48
+    ru.json     sha1digest=ec092b97cd2f7d9a099184aced2d5c1d93b011a3
+    sv.json     sha1digest=e535a1f12898a6e15089b6f4562a150709cf08af
+    tr.json     sha1digest=91922f355b06ff1d486c0d8efcde2b2f399e44f0
+    zh_CN.json  sha1digest=11800002a678db1c5868839056c8de111d2c3513
+    zh_TW.json  sha1digest=06c8a199fe362239bcc953a37351125a78757e01
+# ./opt/novnc/app/locale
+..
+
+
+# ./opt/novnc/app/sounds
+sounds          type=dir
+    CREDITS     sha1digest=27921aa25e2b550a2f45e51fb45e998cfab3edc4
+    bell.mp3    sha1digest=ffe4ccc3500b94a133b946a061ca61773d5c1f63
+    bell.oga    sha1digest=406f28b3a707392e824fe1539a74f3224972c729
+# ./opt/novnc/app/sounds
+..
+
+
+# ./opt/novnc/app/styles
+styles          type=dir
+    Orbitron700.ttf \
+                sha1digest=3926215281d9ddeed380af0454481228b868062c
+    Orbitron700.woff \
+                sha1digest=e0431623dd729e310f568cc0f16e74e4e9f655f8
+    base.css    sha1digest=30f5a3b96e513f8f17f9ed1b2e25692b03ad66a3
+    input.css   sha1digest=3645b313e7a65b7e8db820b9c60762adee7e2e46
+# ./opt/novnc/app/styles
+..
+
+# ./opt/novnc/app
+..
+
+
+# ./opt/novnc/core
+core            type=dir
+    base64.js   sha1digest=2edd097ddba3b60d03f62d9f9a347977499bf67e
+    deflator.js sha1digest=6e3f6c8ec65a28e38a1cc5ddcc34e3c9e280c1b3
+    display.js  sha1digest=fbc2b0d0f88053df44ee2daf460d950303361a75
+    encodings.js \
+                sha1digest=55e4beb09e50301fe97f952fc7761984b401d34b
+    inflator.js sha1digest=9b07c3ff1053503ad6d7ae4a99161d00713a6935
+    ra2.js      sha1digest=e6d2725d54bfba24ab75f6c572b0cd82219912c0
+    rfb.js      sha1digest=abafd2d6f1fb09293752d57e8757f606676b9924
+    websock.js  sha1digest=12e81d1ce83440e2fe3e1584af5a1bca6aafc850
+
+# ./opt/novnc/core/crypto
+crypto          type=dir
+    aes.js      sha1digest=8e54c560face02bbde5032fa1c0baa0560b94239
+    bigint.js   sha1digest=27e959bfc71a032dd23ee6e25183a02168d8fad4
+    crypto.js   sha1digest=6643c0dade44f78dbd2075396796b9b53470992e
+    des.js      sha1digest=719bd3cc8d8e90b3b7a921aa179b3728560c71b3
+    dh.js       sha1digest=669a7f95eca7d81615373db73c093171f3ea2c89
+    md5.js      sha1digest=e144d3ddbdfd01fc2565ec742d43f1b7a56590e1
+    rsa.js      sha1digest=3a4f395ac73fa3baa65a2306421b3f03e2af6f06
+# ./opt/novnc/core/crypto
+..
+
+
+# ./opt/novnc/core/decoders
+decoders        type=dir
+    copyrect.js sha1digest=428d9a83d0a6230c2e60653dffdd2cc1b67c441f
+    hextile.js  sha1digest=403b10c84a1157d9f6bdba2672c903701e1a940f
+    jpeg.js     sha1digest=1aefa29e50319765e20ef1e5e871fca3896ec01e
+    raw.js      sha1digest=56979802635d71c1baf6bf0a8624b82ef2af35b1
+    rre.js      sha1digest=b983d9664d7c375673dd9003463fb9635fc3ecb2
+    tight.js    sha1digest=d42354598deeb7972c495db4b2224ec0bd6da623
+    tightpng.js sha1digest=40cda0022bd492ed01109ef7b2d9120062841844
+    zrle.js     sha1digest=12a55e54a066544de227fa18623b961501e2c603
+# ./opt/novnc/core/decoders
+..
+
+
+# ./opt/novnc/core/input
+input           type=dir
+    domkeytable.js \
+                sha1digest=6e2baa549d2ea7ab8e485f75d666fd991fac1166
+    fixedkeys.js \
+                sha1digest=060a11d582f1a4e51591ffbf793db42ac1fe77d9
+    gesturehandler.js \
+                sha1digest=b6ac144d6a17a97a55003196ae60e4e68816cdb3
+    keyboard.js sha1digest=409dc26fbd6a38ffe482f4ecd2bd4ce4a5e8ce4a
+    keysym.js   sha1digest=d96be898f46452df9e2210a0469b12cbbc893d8d
+    keysymdef.js \
+                sha1digest=234f69c0c9e25811431f842aa815dd813f41a43b
+    util.js     sha1digest=1fd51cfd05691bf02d2c53490a8a6c7baf4eceee
+    vkeys.js    sha1digest=01aa5b0531d1436750b33dbd5dd3fa064dfe13ed
+    xtscancodes.js \
+                sha1digest=4dda16ccdb47a426eed7b3b57850d2b04548b3b6
+# ./opt/novnc/core/input
+..
+
+
+# ./opt/novnc/core/util
+util            type=dir
+    browser.js  sha1digest=e98603224fc07859bb352132f120c719df787a8f
+    cursor.js   sha1digest=4ba6745a64d54d0f4ff43a3f412eeeb5d3862551
+    element.js  sha1digest=e9b2b1ca7dc4310615a5eef59f0f468b4f7343e3
+    events.js   sha1digest=142a4886f2ca485a223b017cc39ab95462ed6582
+    eventtarget.js \
+                sha1digest=284d1231481c14d7ceb6b7e832230c8b8ea7bbdc
+    int.js      sha1digest=2a9c753e8557009831833717ffe90159d0d3d6da
+    logging.js  sha1digest=47ffa45f5df106b0ae56d1b8dadf7fc602ec2491
+    strings.js  sha1digest=9d5dcd10fbebc8fc6208ba68b9e35524f73c4a95
+# ./opt/novnc/core/util
+..
+
+# ./opt/novnc/core
+..
+
+
+# ./opt/novnc/docs
+docs            type=dir
+    API-internal.md \
+                sha1digest=35674ef7d35965f7c636ef905fe2b67b650668ae
+    API.md      sha1digest=01f562b8da1eaa61cb25dde65c7881880850d4ac
+    EMBEDDING.md \
+                sha1digest=49654ab616f49e563db5a2ed1fa7551d98845989
+    LIBRARY.md  sha1digest=8d178956f37f8ad3ccf363556c70c04b84ec191e
+    LICENSE.BSD-2-Clause \
+                sha1digest=3007c269e6a31db552969b264ac23a70f1b1a62f
+    LICENSE.BSD-3-Clause \
+                sha1digest=d50f85b2ba155047d15ba915158350a18e76b710
+    LICENSE.MPL-2.0 \
+                sha1digest=9744cedce099f727b327cd9913a1fdc58a7f5599
+    LICENSE.OFL-1.1 \
+                sha1digest=e4575441fb9b826e243d7a76622686d7923835cb
+    flash_policy.txt \
+                sha1digest=3e3762fa25b1bbf8d583e623ca90e58cac91091d
+    links       sha1digest=66ea8b3866b355aa3937389e31fa389c86b5c435
+    notes       sha1digest=726678c54a37a89bc7163bff65c5d3044f83a0eb
+    novnc_proxy.1 \
+                sha1digest=3e138609027dce47b1d89583adc5e0439bc8a029
+    rfb_notes   sha1digest=24819944184be34e2b23fa2c0db3bd5955e0477f
+    rfbproto-3.3.pdf \
+                sha1digest=0d61b0811167c2b66334cf035278b2b25a596ea0
+    rfbproto-3.7.pdf \
+                sha1digest=4e05f4c8b85822d83adb1ee3965fb994028786eb
+    rfbproto-3.8.pdf \
+                sha1digest=b7d242497d1cec48d7c0a30893125b2f60cc7b9e
+# ./opt/novnc/docs
+..
+
+
+# ./opt/novnc/po
+po              type=dir
+    Makefile    sha1digest=8278e919cb383b0ea3846229a6178e8bb2afa5b3
+    cs.po       sha1digest=01e59ee45338591d73b7db18348a929aef844693
+    de.po       sha1digest=07b533435a249e077a4e0cb783d84ae7aa06ed6c
+    el.po       sha1digest=ea1e73cdd63c7760926e4de5ba9a40eb91a292b8
+    es.po       sha1digest=e06fbbc626fa2ecf55d2dbe4de8ec6eeb3aa7537
+    fr.po       sha1digest=269e6f7dbd55736c1759c488bdb0a5bcb9f9f2d6
+    it.po       sha1digest=86c8a492cc1c8daa2b926d8a80dc0cb4910e03fa
+    ja.po       sha1digest=8a226f13d19a2d3985444c88db1e20cb06dcce84
+    ko.po       sha1digest=caea19bb997b629ea84f83cd4c9f85c527e2eb30
+    nl.po       sha1digest=c6c5549d0dacf6963468841b8549b16258dcba89
+    noVNC.pot   sha1digest=7a7d4428a0d52e6ffe9d5b7d1d8a63f8ded92944
+    pl.po       sha1digest=bf37eccbeba73ccf1fdbc1172d4628921bc5a019
+    po2js       sha1digest=18a3273dd88900f6b72b15582768959dc851e89e
+    pt_BR.po    sha1digest=3883cbd292196a67b5a64ab558d869b2550dd7b4
+    ru.po       sha1digest=87155f119a07c3ca0e881e842060b5a4120aa47c
+    sv.po       sha1digest=0d9c362e4ddd69e0078344156b57fdb6f7727a62
+    tr.po       sha1digest=e2e561163a5a60d81526622f7425a18354931af3
+    xgettext-html \
+                sha1digest=a5f9be28ece663d87f3aca1257cc3499053b99a5
+    zh_CN.po    sha1digest=b2195ae9e49023241eef1bfce8ed4bb27aab895e
+    zh_TW.po    sha1digest=2a765d28d2e2192ab8de7e6d4ffbccbe79184722
+# ./opt/novnc/po
+..
+
+
+# ./opt/novnc/snap
+snap            type=dir
+    snapcraft.yaml \
+                sha1digest=4b7d2f72eaa5e5d359b5b9ced0b6ee939496d62a
+
+# ./opt/novnc/snap/hooks
+hooks           type=dir
+    configure   sha1digest=e8dcdfe54a55cd6f668f982f0aec0dda478e25f8
+# ./opt/novnc/snap/hooks
+..
+
+
+# ./opt/novnc/snap/local
+local           type=dir
+    svc_wrapper.sh \
+                sha1digest=6e4a6aac296812e91b7c928ff6cb58d1c87d8c1b
+# ./opt/novnc/snap/local
+..
+
+# ./opt/novnc/snap
+..
+
+
+# ./opt/novnc/tests
+tests           type=dir
+    assertions.js \
+                sha1digest=ca955f8a3b24d11baed6bf13e5cd36470eefc68d
+    fake.websocket.js \
+                sha1digest=4cf06ab61e6b5b03feeaf446a3ccada58b551d22
+    playback-ui.js \
+                sha1digest=a3b931329a37f6878c5f4f937844dd95e7332e57
+    playback.js sha1digest=9bbad908039fc5f0c809d321ee272f718c464c63
+    test.base64.js \
+                sha1digest=cd5c9b8a7231cc9f2ffb0a94b3a357ffabf3e437
+    test.browser.js \
+                sha1digest=d2a166ed69c14984337041aa3b0153fc21f8fff0
+    test.copyrect.js \
+                sha1digest=5080e78b8d63d0c032b17af6c7a7601d2016146e
+    test.deflator.js \
+                sha1digest=f74d9d72606d1d3c7e335ae74f9c5af9bf37e6af
+    test.display.js \
+                sha1digest=fa64cc62c593a0d76cdb926a45db4233a3dda5a8
+    test.gesturehandler.js \
+                sha1digest=04ff13a901f3d0a1b118c57ae22ded853e0afb43
+    test.helper.js \
+                sha1digest=81173cbaba49137d4c44fe604a0cc687d9aaf61a
+    test.hextile.js \
+                sha1digest=a649c12204fd7f227934636907064352ec042d2f
+    test.inflator.js \
+                sha1digest=9231af42cec5e6b4ad97defc680776c5ffb4c1b1
+    test.int.js sha1digest=c63eb5abfa77fc0753bd5067b3bc7b78972b3ff5
+    test.jpeg.js \
+                sha1digest=d834aaee4ad06a93f29fe19d2c944d36cd874950
+    test.keyboard.js \
+                sha1digest=758ab1b0168e43057f7d111dd2be14f168a421d7
+    test.localization.js \
+                sha1digest=fc244da8a0b1cb6dfda037886a0e9aef49f04b78
+    test.raw.js sha1digest=4be9a5108a0fb7046a9499a5b1a0e399681289c7
+    test.rfb.js sha1digest=3e27366e90672d75f4ee9f3998eafdd222c54dfe
+    test.rre.js sha1digest=0782d8c750ae808b1149c073f201c9898e1a80a6
+    test.tight.js \
+                sha1digest=928d90917ab39a503e477b62090f663c7e648033
+    test.tightpng.js \
+                sha1digest=74b67224b003106c5c9937d26b739d651a0f8909
+    test.util.js \
+                sha1digest=da103586cd2ac0fabab2bd32b6e85f7b5e3f51eb
+    test.websock.js \
+                sha1digest=21b928ec49102e44f181b6463436ed19ff12b09c
+    test.webutil.js \
+                sha1digest=8e9f86cd02fd62ef496bb9ede11401748c01f10f
+    test.zrle.js \
+                sha1digest=040c82fa45a0036cdfaeb7508e5e0ca3871f0609
+    vnc_playback.html \
+                sha1digest=612109114aaa361216831a84d2b7d2ac9f3a0a93
+# ./opt/novnc/tests
+..
+
+
+# ./opt/novnc/utils
+utils           type=dir
+    README.md   sha1digest=9bc196dd4548ee7a2dbdbd18b88c9c741cbfbf6b
+    b64-to-binary.pl \
+                sha1digest=5958cf690bd4e7233a82e3f350afa72cfcae5d51
+    convert.js  sha1digest=98b841e48dc864ba767bb4b1be362842f076f63f
+    genkeysymdef.js \
+                sha1digest=258e614e5b8503bbd2aca47eac82184e3b0a017a
+    novnc_proxy sha1digest=f44007d393e450439e7af8ad86e3a0d3c3ffb08a
+    u2x11       sha1digest=b50c8ca0f9fb5eb0c58f73270ce3315eecb20e3a
+    validate    sha1digest=937064f8f72642f77c8b54cfbeecbcdb77c9d92a
+# ./opt/novnc/utils
+..
+
+
+# ./opt/novnc/vendor
+vendor          type=dir
+
+# ./opt/novnc/vendor/pako
+pako            type=dir
+    LICENSE     sha1digest=0ec1c971e17e06db17423a35a9dced8e1531665f
+    README.md   sha1digest=58c261b13e8b76aabfd8a3588a2bbb2ff3a803d4
+
+# ./opt/novnc/vendor/pako/lib
+lib             type=dir
+
+# ./opt/novnc/vendor/pako/lib/utils
+utils           type=dir
+    common.js   sha1digest=3704e2ce8b74a4b6b03b6ce86bafc1fade41528d
+# ./opt/novnc/vendor/pako/lib/utils
+..
+
+
+# ./opt/novnc/vendor/pako/lib/zlib
+zlib            type=dir
+    adler32.js  sha1digest=cde62313ddeb097c54b246390ede1183df8a0cb9
+    constants.js \
+                sha1digest=95ee83838e59611edc335cbf4d5fe5988dc696ed
+    crc32.js    sha1digest=f855407f85d1458e5eebc67e93ac756b821200ce
+    deflate.js  sha1digest=c04fd184bfebe770f808e521ea8ad78c9048daff
+    gzheader.js sha1digest=54c50bf9be772ee7cddbdf821a37bdad50aa7ed2
+    inffast.js  sha1digest=83358e76af746f42895c0a3872097c8fa5fe44bb
+    inflate.js  sha1digest=ff0118483fcd862e5941b86451083286c735fab3
+    inftrees.js sha1digest=1344a41dafb8abeb84f90fe54071e1a5c723948d
+    messages.js sha1digest=133e40d050776a37bf328b2f6618ae60ef96504e
+    trees.js    sha1digest=daeaf3f1d8be8c18e7a3bb3bcbbd7de2338abb8b
+    zstream.js  sha1digest=1c70a17e6d7bb07006894f4b3004e6f3992969dc
+# ./opt/novnc/vendor/pako/lib/zlib
+..
+
+# ./opt/novnc/vendor/pako/lib
+..
+
+# ./opt/novnc/vendor/pako
+..
+
+# ./opt/novnc/vendor
+..
+
+# ./opt/novnc
+..
+
+# ./opt
+..
+
+
+# ./run
+run             type=dir
+    chrome.supervisord.pid \
+                sha1digest=e5fa44f2b31c1fb553b6021e7360d07d5d91ff5e
+# ./run
+..
+
+
+# ./sbin
+sbin            type=dir
+    apk         sha1digest=dc75b1b4c8f97147d4602d9faaf82c96ce5688f8
+    ldconfig    sha1digest=2a36b6f8f3992b112450e66ac128c2ea499a103e
+    su-exec     sha1digest=a562a5b72ea675a27be5ab25b55ed29ff8258c3b
+# ./sbin
+..
+
+
+# ./usr
+usr             type=dir
+
+# ./usr/lib
+lib             type=dir
+# ./usr/lib
+..
+
+
+# ./usr/local
+local           type=dir
+
+# ./usr/local/bin
+bin             type=dir
+    container_daemon \
+                sha1digest=8fcd482f18c12dcea628402724b59f6f46f8cbe3
+    log_forwarder \
+                sha1digest=efbecd4cff8126a6af320ea4b5c68992418a6bb3
+# ./usr/local/bin
+..
+
+
+# ./usr/local/chromium
+chromium        type=dir
+
+# ./usr/local/chromium/policies
+policies        type=dir
+
+# ./usr/local/chromium/policies/managed
+managed         type=dir
+    001_base_extensions.json \
+                sha1digest=5de119e00f288ea2f1bde94c6314d57961bde446
+    001_base_miscellaneous.json \
+                sha1digest=94773452cd26fd3ecfac175453f2ad59523e1e2f
+    001_base_url_blocklist.json \
+                sha1digest=3679cdcdfe4b4c261e2ae6aff0d5ea3b2ff68185
+    010_dev_miscellaneous.json \
+                sha1digest=c03afd4116ef04a59b0dca52c7edf8ae681bd36e
+    010_dev_url_allowlist.json \
+                sha1digest=40257968cfae8ed6b7757ba86209a53242835a11
+    010_dev_url_blocklist.json \
+                sha1digest=c55e43dd8beefb7b919e6bf0f8fc53b220731cba
+    020_operator_miscellaneous.json \
+                sha1digest=2e0811c3366571ead5ec6fb9c7eb285b12562d1e
+    020_operator_search.json \
+                sha1digest=cc344750bc1992e5c251d04b6133ff0e87881021
+    020_operator_url_allowlist.json \
+                sha1digest=bf740cda606bc85ca118ea53bd6f2eb44f5c8133
+    020_research_miscellaneous.json \
+                sha1digest=c03afd4116ef04a59b0dca52c7edf8ae681bd36e
+    020_research_url_allowlist.json \
+                sha1digest=40257968cfae8ed6b7757ba86209a53242835a11
+    020_research_url_blocklist.json \
+                sha1digest=c55e43dd8beefb7b919e6bf0f8fc53b220731cba
+    040_caas_bing_live_search.json \
+                sha1digest=cc344750bc1992e5c251d04b6133ff0e87881021
+    040_caas_cua_bing_at_home_search.json \
+                sha1digest=cc344750bc1992e5c251d04b6133ff0e87881021
+    040_caas_searchgpt_search.json \
+                sha1digest=53b8773f3c1aa9eb7db792a74b338ffddc6773dd
+# ./usr/local/chromium/policies/managed
+..
+
+# ./usr/local/chromium/policies
+..
+
+# ./usr/local/chromium
+..
+
+
+# ./usr/local/init_scripts
+init_scripts    type=dir
+    certs.sh    sha1digest=6cd1114c1685d06f9df389509859dc54975437ad
+    chrome.sh   sha1digest=e2f149ae0004f08b8da77b62d5015a280d0c5268
+    container_daemon.sh \
+                sha1digest=83dda508dbe7f15a6084a7e4b96380b98921a1a6
+    cua_bing_at_home.sh \
+                sha1digest=daddf5a5ce367bce11cde5115e35b40a3fe5e072
+    extension_server.sh \
+                sha1digest=37c0183adb97a940e7d5d01878563b8e8d22161f
+    logrotate_loop.sh \
+                sha1digest=ebe2f321c4a7bbab53e24b7f49e14389304a6423
+    mitmproxy.sh \
+                sha1digest=c628f8d4747acd08009e1de9db14580158f75f6e
+    novnc_proxy.sh \
+                sha1digest=8c2df608908066b3dc6485a539f01fef8ffe9a67
+    openbox.sh  sha1digest=d0c4b1c3985a953a88f089bb91ee197c24d58424
+    picom.sh    sha1digest=ad2be3aecfa4756742c5e0c6e9b0b9f48f71f03f
+    x11vnc.sh   sha1digest=db12d8df6b681dae9cef19a5e669b182a75f6c1d
+    xvfb.sh     sha1digest=b9dd01bd26eec2f836073d32e6fb94dc668979f4
+# ./usr/local/init_scripts
+..
+
+
+# ./usr/local/share
+share           type=dir
+
+# ./usr/local/share/ca-certificates
+ca-certificates type=dir
+    nebula-dns.crt \
+                sha1digest=3af1c35c015272c3bcd7a332334f676552c902d9
+    webcache02.crt \
+                sha1digest=78f145b96e03d16c540b1cb79da242c03b96f622
+    webcache03.crt \
+                sha1digest=bd51bbf0d3251df0eeff0e1bd0ef4826ad3fefc6
+# ./usr/local/share/ca-certificates
+..
+
+# ./usr/local/share
+..
+
+# ./usr/local
+..
+
+# ./usr
+..
+
+
+# ./var
+var             type=dir
+
+# ./var/log
+log             type=dir
+    chrome.certs.error.log \
+                sha1digest=89472ad98a540228a0bfd017d0fb4a7e56ddfd82
+    chrome.certs.log \
+                sha1digest=4567dd62f9f537f99a5ab5a21599e4c55291109f
+    chrome.cua_bing_at_home.error.log \
+                sha1digest=bf3f5dde51e91535971eb163b9a2d02d6df223ad
+    chrome.cua_bing_at_home.log \
+                sha1digest=a16498462c876a7147f4e21469abecee94741ba0
+    chrome.extension_server.error.log \
+                sha1digest=de4a8206dcf93060107cbb49de782db845082c98
+    chrome.extension_server.log \
+                sha1digest=7ef4a9c468422355e203831f681c8bf5eb8bad23
+    chrome.logrotate.error.log \
+                sha1digest=7c4581c8ce0f8408318bd595014d02e9c6a246ce
+    chrome.logrotate.log \
+                sha1digest=6b339e0b6768095b8bcfaeff88ff9c6c74eb826e
+    chrome.novnc_proxy.error.log \
+                sha1digest=3608a79ee7e4eaadbc944297c170001850be8958
+    chrome.novnc_proxy.log \
+                sha1digest=bc8b8bb1e43c2b37a6d3021bcdbd8628766945ce
+    chrome.picom.error.log \
+                sha1digest=8d26d45fc59b4b8a428c219f855c3e60a228999b
+    chrome.supervisord.log \
+                sha1digest=d38bc0084c1150b62bcb34e5da4c8e21026c9f8b
+    chrome.x11vnc.error.log \
+                sha1digest=0725f868407dd4d4ed86cdda343539bcfd442bc1
+    chrome.x11vnc.log \
+                sha1digest=f74fbeda32d246555521d5fac2679e393bb590ff
+
+# ./var/log/log_forwarder
+log_forwarder   type=dir
+    chrome.log  sha1digest=3d626f76cce237f4e2bca0bd07b45d9aea5da695
+    container_daemon.log \
+                sha1digest=0d7952c32a54ee1fdf9709a128b0337cfdc72c3e
+# ./var/log/log_forwarder
+..
+
+# ./var/log
+..
+
+# ./var
+..
+
+..
+
