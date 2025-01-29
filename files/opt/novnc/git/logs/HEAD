@@ -1,0 +1,2 @@
+0000000000000000000000000000000000000000 ed1fef4fc3817dcc91c5076cb8dc846f20502b2f root <root@buildkitsandbox.(none)> 1730148479 +0000	clone: from https://github.com/novnc/noVNC.git
+ed1fef4fc3817dcc91c5076cb8dc846f20502b2f 7fcf9dcfe0cc5b14e3841a4429dc091a6ffca861 root <root@buildkitsandbox.(none)> 1730148479 +0000	checkout: moving from master to v1.5.0
