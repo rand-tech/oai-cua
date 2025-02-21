@@ -1,4 +1,4 @@
-# oai-operator
+# oai-cua
 
 Computer-Using Agent (CUA)
 
